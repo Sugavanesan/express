@@ -1,19 +1,17 @@
 {
-  "name": "myapp",
+  "name": "express-api",
   "version": "1.0.0",
-  "main": "index.js",
+  "description": "Minimal Express.js API server",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Sugavanesan/express.git"
+  "dependencies": {
+    "express": "^4.18.2",
+    "http-errors": "^2.0.0",
+    "morgan": "^1.10.0"
   },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Sugavanesan/express/issues"
-  },
-  "homepage": "https://github.com/Sugavanesan/express#readme",
-  "description": ""
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
 }
